@@ -1,0 +1,9 @@
+@use '../abstracts/colors' as c;
+
+.aside {
+  // width: 538px;
+  width: 37%;
+  //todo make height dynamics
+  height: 933px; 
+  background-color: c.$secondary-60;
+}
