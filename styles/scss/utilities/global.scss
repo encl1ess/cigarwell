@@ -1,0 +1,18 @@
+@use '../abstracts/colors' as c;
+@use '../abstracts/mixins' as m;
+
+html, 
+body {
+  height:100%; 
+  width:100%;
+}
+
+body {
+  @include m.flex-container($direction: column);
+  font-family: 'Roboto', sans-serif;
+  color: c.$primary-100;
+}
+
+#main {
+  flex-grow: 1;
+}
