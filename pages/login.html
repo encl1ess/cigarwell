@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CigarWell</title>
+  <title>Login</title>
   <link rel="stylesheet" href="https://unpkg.com/scss-reset/reset.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -34,7 +34,7 @@
     <section class="content">
       <form class="form">
         <div class="form__header">
-          <h2 class="form__title">Sign up via Email</h2>
+          <h2 class="form__title">Login!</h2>
         </div>
         <div class="form__content">
           <div class="input-group">
@@ -45,26 +45,28 @@
             <label for="password">Password</label>
             <input type="password" id="password" placeholder="**********">
           </div>
-          <div class="input-group">
-            <label for="confirm-password">Confirm Password</label>
-            <input type="password" id="confirm-password" placeholder="**********">
-          </div>
         </div>
-        <button class="form__button button" type="submit">Sign Up</button>
+        <button class="form__button button" type="submit">Login</button>
+        <div class="check-message">
+          <a href="/pages/forgot-password.html">
+            Forgot password
+          </a>
+          to reset your password
+        </div>
       </form>
       <footer class="content__footer">
         <div class="check-message">
-          Already have an account?
-            <a href="/pages/login.html">
-              Log In
-            </a>
+          You don't have an account? 
+          <a href="/pages/signup.html">
+            Sign Up
+          </a>
         </div>
       </footer>
     </section>
   </main>
   <footer class="footer">
     <div class="footer__copyright">
-     &#169;&nbsp;Cigar well 2023. All rights reserved.
+      &#169;&nbsp;Cigar well 2023. All rights reserved.
     </div>
   </footer>
 </body>
