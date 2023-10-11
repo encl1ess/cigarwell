@@ -10,3 +10,9 @@
   font-size: 16px;
   font-weight: 600;
 }
+
+.button_transperent {
+  background: transparent;
+  border: 1px solid c.$primary-100;
+  color: c.$primary-100;
+}
