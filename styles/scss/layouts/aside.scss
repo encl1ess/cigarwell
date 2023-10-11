@@ -33,3 +33,9 @@ $width: 37%;
     font-size: 14px;
   }
 }
+
+@media screen and (max-width: 767px){
+  .aside {
+    display: none;
+  }
+}

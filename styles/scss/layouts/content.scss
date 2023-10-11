@@ -5,3 +5,10 @@
   @include m.flex-container(center, center, column);
   width: 63%;
 }
+
+@media screen and (max-width: 767px){
+  .content {
+    width: 100%;
+    background: top left / cover no-repeat url('/assets/img/mask-mobile.png');
+  }
+}
