@@ -2,7 +2,7 @@
 @use '../abstracts/mixins' as m;
 
 .content {
-  @include m.flex-container(center, center, column);
+  @include m.flex-container(center, start, column);
   width: 63%;
 
   &__footer {

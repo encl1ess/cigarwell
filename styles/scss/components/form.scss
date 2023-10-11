@@ -8,6 +8,7 @@
 
   &__header {
     margin-bottom: 45px;
+    text-align: center;
   }
 
   &__title {
@@ -16,22 +17,26 @@
     line-height: normal;
   }
 
+  &__description {
+    margin-top: 16px;
+    color: c.$primary-60;
+  }
+
   &__content {
     @include m.flex-container($direction: column);
     width: 100%;
     row-gap: 16px;
-    margin-bottom: 16px;
   }
 
   &__divider {
     width: 100%;
-
+    margin: 26px 0;
+  
     span {
       @include m.flex-container(center, center);
       position: relative;
       color: c.$primary-100;
       opacity: 0.2;
-      margin: 26px 0;
 
       &::before,
       &::after {

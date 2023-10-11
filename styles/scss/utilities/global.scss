@@ -16,6 +16,10 @@ body {
   color: c.$primary-100;
 }
 
+a {
+  text-decoration: none;
+}
+
 #main {
   flex-grow: 1;
   display: flex;
