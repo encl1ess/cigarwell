@@ -1,0 +1,17 @@
+@use '../abstracts/colors' as c;
+@use '../abstracts/mixins' as m;
+
+.footer {
+  display: none;
+
+  &__copyright {
+    color: c.$primary-40;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .footer {
+    @include m.flex-container(center, center, column);
+  }
+}

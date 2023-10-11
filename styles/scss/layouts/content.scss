@@ -4,6 +4,11 @@
 .content {
   @include m.flex-container(center, center, column);
   width: 63%;
+
+  &__footer {
+    @include m.flex-container(center, center, column);
+    margin: auto auto 47px;
+  }
 }
 
 @media screen and (max-width: 767px){

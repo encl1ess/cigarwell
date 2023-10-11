@@ -4,16 +4,25 @@
   @include m.flex-container($direction: column);
   width: 332px;
 
+  &__header {
+    @include m.flex-container(center, center, column);
+    margin-bottom: 45px;
+  }
+
   &__title {
     font-size: 24px;
     font-weight: 700;
-    align-self: center;
-    margin-bottom: 49px;
+    line-height: normal;
   }
 
   &__content {
     @include m.flex-container($direction: column);
     row-gap: 16px;
     margin-bottom: 16px;
+  }
+
+  &__footer {
+    align-self: center;
+    margin-top: 34px;
   }
 }
