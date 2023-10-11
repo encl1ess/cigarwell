@@ -12,11 +12,13 @@
 </head>
 <body>
   <header class="header">
-    <a class="logo-link" href="#">
+    <a class="header__logo" href="#">
       <i class="logo"></i>
     </a>
-    <button>
-      Login
+    <button class="header__button">
+      <a hraf="#">
+        Login
+      </a>
     </button>
   </header>
   <main id="main">
@@ -29,8 +31,31 @@
         </p>
       </div>
     </aside>
-    <section>
-  
+    <section class="content">
+      <form class="form">
+        <h2 class="form__title">Sign up via Email</h2>
+        <div class="form__content">
+          <div class="input-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="name@company.com">
+          </div>
+          <div class="input-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="**********">
+          </div>
+          <div class="input-group">
+            <label for="confirm-password">Confirm Password</label>
+            <input type="password" id="confirm-password" placeholder="**********">
+          </div>
+        </div>
+        <button class="form__button button" type="submit">Sign Up</button>
+      </form>
+      <div class="check-message">
+        Already have an account?
+        <a href="#">
+          Log In
+        </a>
+      </div>
     </section>
   </main>
 </body>

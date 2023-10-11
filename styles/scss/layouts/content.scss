@@ -1,0 +1,7 @@
+@use '../abstracts/colors' as c;
+@use '../abstracts/mixins' as m;
+
+.content {
+  @include m.flex-container(center, center, column);
+  width: 63%;
+}

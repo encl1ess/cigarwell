@@ -1,0 +1,26 @@
+@use '../abstracts/mixins' as m;
+@use '../abstracts/colors' as c;
+
+.input-group {
+  @include m.flex-container($direction: column);
+  font-weight: 500;
+  row-gap: 4px;
+  
+  label {
+    font-size: 13px;
+    line-height: 1.54em;
+
+  }
+  input {
+    font-size: 14px;
+    height: 48px;
+    border: 1px solid c.$gray;
+    border-radius: 6px;
+    padding: 14px 16px;
+  }
+
+  ::placeholder {
+    color: c.$gray-60;
+  }
+}
+
