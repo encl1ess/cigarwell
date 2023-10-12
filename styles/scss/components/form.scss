@@ -4,7 +4,8 @@
 .form {
   @include m.flex-container(center, center, column);
   width: 332px;
-  margin-top: min(190px, 20%);
+  margin-top: min(190px, 17dvh);
+  margin-bottom: 20px;
 
   &__header {
     margin-bottom: 35px;
@@ -15,7 +16,7 @@
     margin-bottom: 15px;
     font-size: 24px;
     font-weight: 700;
-    line-height: normal;
+    line-height: 0.8em;
   }
 
   &__description {
@@ -32,15 +33,15 @@
   &__divider {
     width: 100%;
     margin: 26px 0;
-  
+
     span {
       @include m.flex-container(center, center);
       position: relative;
-      color: c.$primary-100;
-      opacity: 0.2;
+      color: #929292;
 
       &::before,
       &::after {
+        opacity: 0.2;
         content: ' ';
         display: block;
         height: 1px;
@@ -60,5 +61,19 @@
     align-self: center;
     margin-top: 34px;
     width: 80%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .form {
+    margin-top: auto;
+    &__header {
+      margin-bottom: 20px;
+    }
+    &__title {
+      margin-bottom: 0;
+    }
+    &__footer {
+      margin-top: 20px;
+    }
   }
 }

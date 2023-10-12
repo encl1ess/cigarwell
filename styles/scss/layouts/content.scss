@@ -4,6 +4,8 @@
 .content {
   @include m.flex-container(center, start, column);
   width: 63%;
+  padding-top: 20px;
+  margin: 0 auto;
 
   &__footer {
     @include m.flex-container(center, center, column);
@@ -15,5 +17,9 @@
   .content {
     width: 100%;
     background: top left / cover no-repeat url('/assets/img/mask-mobile.png');
+
+    &__footer {
+      margin-bottom: 25px;
+    }
   }
 }

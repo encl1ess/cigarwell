@@ -13,5 +13,6 @@
 @media screen and (max-width: 767px){
   .footer {
     @include m.flex-container(center, center, column);
+    margin-bottom: 20px;
   }
 }
