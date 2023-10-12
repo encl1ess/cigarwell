@@ -1,7 +1,7 @@
 @use '../abstracts/colors' as c;
 @use '../abstracts/mixins' as m;
 
-html, 
+html,
 body {
   height:100%; 
   width:100%;
@@ -10,6 +10,7 @@ body {
 body {
   @include m.flex-container($direction: column);
   font-family: 'Roboto', sans-serif;
+  min-height: 100%;
 }
 
 *{
