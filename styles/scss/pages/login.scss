@@ -1,0 +1,22 @@
+@media screen and (max-width: 767px){
+  .login  {
+    .login__button span {
+      display: none;
+    }
+    .login__button::after {
+      content: 'Sign in';
+    }
+
+    .form__divider {
+      display: none;
+    }
+
+    .check-message {
+      margin-top: 20px;
+    }
+
+    .check-message::before {
+      content: 'Press';
+    }
+  }
+}

@@ -1,0 +1,15 @@
+
+@media screen and (max-width: 767px){
+  .signup  {
+    .form__title {
+      display: none;
+    }
+    .form__header::after {
+      content: 'Sign Up!';
+      margin-bottom: 15px;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: normal;
+    }
+  }
+}
