@@ -6,8 +6,8 @@
   @include m.flex-container(center, $direction: column);
   width: 37%;
   max-width: 538px;
-  background: bottom center / contain no-repeat url('/assets/img/hands.png'),
-  top left / 100% auto repeat-y url('/assets/img/mask.png'),
+  background: bottom center / contain no-repeat url('./../assets/img/hands.png'),
+  top left / 100% auto repeat-y url('./../assets/img/mask.png'),
   c.$secondary-60;
   background-blend-mode: multiply, normal;
   

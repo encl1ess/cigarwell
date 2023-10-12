@@ -16,7 +16,7 @@
 @media screen and (max-width: 767px){
   .content {
     width: 100%;
-    background: top left / cover no-repeat url('/assets/img/mask-mobile.png');
+    background: top left / cover no-repeat url('./../assets/img/mask-mobile.png');
 
     &__footer {
       margin-bottom: 25px;
